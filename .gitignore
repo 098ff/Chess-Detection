@@ -1,0 +1,86 @@
+# -----------------------------------------------------------------
+# 1. Python Environment, System, and IDE Files
+# -----------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# Miniforge/Conda/Anaconda Installation (Files specified by user)
+Miniforge3/
+miniforge3/
+Miniconda3/
+Anaconda3/
+DigImg/Miniforge3-MacOSX-arm64.sh 
+*.sh
+
+# Jupyter/IPython Notebook artifacts
+.ipynb_checkpoints
+.ipynb_checkpoints/
+.history/ # ไฟล์ประวัติในบาง IDE
+
+# IDE (Integrated Development Environment) / Editor Files
+.vscode/        # Visual Studio Code settings
+.idea/          # JetBrains (PyCharm, IntelliJ) settings
+*.swp
+*.bak
+*.tmp
+*.log
+*.sqlite3
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------------------------------
+# 2. Datasets and Large Files
+# -----------------------------------------------------------------
+
+dataset_1/train/
+dataset_1/valid/
+dataset_1/test/
+dataset_1/train/
+dataset_1/valid/
+dataset_1/test/
+!dataset_1/data_new.yaml # Keep the YAML configuration file
+
+dataset_2/Images/
+dataset_2/Label/
+
+dataset_2_restruct_AJ/images/
+dataset_2_restruct_AJ/labels/
+
+dataset_4/train/
+
+dataset_4_restruct/images/
+dataset_4_restruct/labels/
+
+dataset_5/train/
+
+# -----------------------------------------------------------------
+# 3. Large Trained Models
+# -----------------------------------------------------------------
+
+Hand-Trained-Model/yolo_gldres_Hand.pt
+Hand-Trained-Model/lewiswatson_Hand_best.pt
+
+Chess-Trained-Model/dopaul_chess_best.pt
+Chess-Trained-Model/gldres_chess_yolob8.pt
+
+# Common large media/archive files
+*.zip
+*.tar
+*.rar
+*.mp4
+*.avi
+*.mov

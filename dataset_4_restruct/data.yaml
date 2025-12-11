@@ -1,0 +1,18 @@
+path: /Users/098f/Desktop/DigImg/dataset_4_restruct
+train: images/train
+val: images/val
+test: images/test
+nc: 12
+names:
+- black-bishop
+- black-king
+- black-knight
+- black-pawn
+- black-queen
+- black-rook
+- white-bishop
+- white-king
+- white-knight
+- white-pawn
+- white-queen
+- white-rook
